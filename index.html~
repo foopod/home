@@ -1,0 +1,50 @@
+<htmL>
+    <head>
+        <title>home</title>
+        <style>
+            body{
+                text-align: center;
+            	font-family: 'fira mono'
+	    }
+            h1{
+                font-size: 4em;
+                text-align: center;
+                margin: 1em 0;
+		font-weight: normal;
+            }
+            input{
+                font-size: 1.5em;
+                border-radius: 10px;
+                border:none;
+                background-color: #ccc;
+                padding:10px;
+            }
+            a{
+                padding:20px;
+                font-size:2em;
+            }
+            .links{
+                margin-top:1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+		<h1>home</h1>
+        </div>
+        <form action="https://duckduckgo.com/">
+            <input type="text" placeholder="search..." name="q"/>
+        </form>
+        <div class="links">
+            <a href="https://github.com">github</a>
+            <a href="https://news.ycombinator.com/">hn</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox">gmail</a>
+            <a href="https://writing.jonoshields.com/">notes</a>
+        </div>
+        <div class="links">
+            <a href="https://reddit.com/r/analogcommunity">r/analogcommunity</a>
+            <a href="https://reddit.com/r/thinkpad">r/thinkpad</a>
+            <a href="https://reddit.com/r/unixporn">r/unix</a>
+        </div>
+    </body>
+</htmL>
