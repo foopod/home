@@ -1,16 +1,21 @@
 <htmL>
     <head>
         <title>home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=JetBrains+Mono&display=swap" rel="stylesheet">
         <style>
             body{
                 text-align: center;
-            	font-family: 'fira mono'
-	    }
+            	font-family: 'Fira Mono', monospace;
+            	background-color:#302D41;
+            	color:#89DCEB;
+	    	}
             h1{
                 font-size: 4em;
                 text-align: center;
                 margin: 1em 0;
-		font-weight: normal;
+				font-weight: normal;
             }
             input{
                 font-size: 1.5em;
@@ -28,9 +33,15 @@
                 padding:20px;
                 font-size:2em;
                 color: black;
+                color:#B5E8E0;
             }
             .links{
                 margin-top:1.5em;
+            }
+
+            img{
+            	width:200px;
+            	padding:3em;
             }
 
 
@@ -38,7 +49,7 @@
     </head>
     <body>
         <div>
-		<h1>home</h1>
+			<img src="logo.png">
         </div>
         <form action="https://duckduckgo.com/">
             <input type="text" placeholder="search..." name="q"/>
